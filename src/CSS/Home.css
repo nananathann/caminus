@@ -1,0 +1,114 @@
+@import url(./Tudo.css);
+
+.titulo {
+    font-family: 'Passion One', cursive;
+    font-size: 5vw;
+}
+
+main {
+    font-family: 'Salsa', cursive;
+    color: white;
+}
+
+#fundoum {
+    background: var(--Fundo-um);
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separar {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    width: 100%;
+    height: 100%;
+    padding-left: 1vw;
+    text-align: justify;
+}
+
+.texto h2 {
+    margin-bottom: .0625rem;
+}
+
+.texto p {
+    font-size: 2.5vw;
+}
+
+.texto3 {
+    width: 100%;
+    height: 100%;
+    padding-right: 1.5vw;
+    text-align: justify;
+}
+
+.texto3 h2 {
+    margin-bottom: .0625rem;
+}
+
+.texto3 p {
+    font-size: 2.5vw;
+}
+
+#imagemum {
+    background: url(../img/img_Index/logo.png);
+    width: 40vw;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#fundodois {
+    background: var(--Fundo-dois);
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#imagemdois {
+    background: url(../img/img_Index/morango.png);
+    width: 40vw;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#fundotres {
+    background: var(--Fundo-um);
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagemtres {
+    background: url(../img/img_Index/circuito.png);
+    width: 40vw;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto2 {
+    width: 100%;
+    height: 100%;
+    padding-left: 1.5vw;
+    text-align: justify;
+}
+
+.texto2 h2 {
+    margin-bottom: .0625rem;
+}
+
+.texto2 p {
+    font-size: 2.5vw;
+}

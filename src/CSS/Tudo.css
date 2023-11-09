@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Negrito: #406951;
+  --Verde-cabecalho: #ECF39E;
+  --Verde-letra-cabecalho: #67BC45;
+  --Verde-rodape: #90A955;
+  --Fundo-um: #132A13;
+  --Fundo-dois: #224120;
+  --Texto-Rodape: #F7F6EE;
+  --Verde-desenvolvedores: #666B51;
+  --Verde-Mobile: #F6F4D2;
+  --Fonte-Cabecalho-Cel: #40672D;
+}
+
+main {
+  font-family: 'Salsa', cursive;
+  text-decoration: none;
+}

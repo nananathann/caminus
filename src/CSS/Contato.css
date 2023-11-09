@@ -1,0 +1,83 @@
+@import url(./Tudo.css);
+
+.naveg {
+    width: 100%;
+    height: 26vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.qrnaveg img {
+    width: 20vw;
+}
+
+.Titulos {
+  font-size: 5vw;
+}
+
+.naveg p, .desenvolvedores p{
+    font-size: 2.5vw;
+    text-align: justify;
+}
+
+.navega {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2vw;
+}
+
+.qrnaveg {
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0rem 2vw;
+}
+
+.header-desenvolvedor {
+    background: var(--Verde-desenvolvedores);
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+.desenvolvedores {
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 1vw;
+}
+
+.desenvolvedores2 {
+    background: var(--Fundo-dois);
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 1vw;
+}
+
+.textos {
+    width: 50%;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 3.5vw;
+    margin-left: 7vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.pessoas img {
+    width: 16vw;
+    height: 16vw;
+}
+
+.codes img{
+    width: 15vw;
+    height: 15vw;
+}

@@ -1,0 +1,143 @@
+@import url(./Tudo.css);
+
+.base {
+    height: 70vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 4vw 0rem 0rem;
+    text-align: justify;
+}
+
+p {
+    font-size: 3vw;
+}
+
+.base h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+}
+
+.base img {
+    width: 30vw;
+    height: 30vw;
+}
+
+.base1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.base2 {
+    width: 50%;
+}
+
+.blcestufa {
+    height: 32vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 0rem 5vw 0rem;
+    text-align: justify;
+    background: var(--Fundo-dois);
+}
+
+.blcestufa img {
+    height: 21vw;
+    width: 35.75vw;
+    margin-right: 2vw;
+}
+
+.estufa1 {
+    width: 50%;
+}
+
+.estufa2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.blcvaso {
+    height: 28vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 5vw 4vw 0rem;
+    text-align: justify;
+}
+
+.blcvaso img {
+    width: 22vw;
+    height: 24vw;;
+}
+
+.vaso1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaso2 {
+    width: 50%;
+    display: flex;
+}
+
+.blcplanta {
+    height: 45vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 4vw 0rem 0rem 2vw;
+    text-align: justify;
+    background: var(--Fundo-dois);
+}
+
+.blcplanta img {
+    width: 34vw;
+    height: 36vw;
+}
+
+.blcplanta p {
+    width: 50vw;
+}
+
+.planta1 {
+    width: 50%;
+}
+
+.planta2 {
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.blcmorango {
+    height: 50vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 4vw 3vw 0rem 0rem;
+    text-align: justify;
+}
+
+.blcmorango img {
+    width: 34vw;
+    height: 38vw;
+}
+
+.morango1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.morango2 {
+    width: 50%;
+}

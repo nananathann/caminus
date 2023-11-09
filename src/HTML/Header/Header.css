@@ -1,0 +1,136 @@
+@import url(./../../CSS/Tudo.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ .botao_menu {
+  height: 8vh;
+  padding-inline: 2rem;
+  display: flex;
+  align-items: center;
+  background: var(--Verde-cabecalho);
+  padding-left: 7vw;
+}
+
+.imgs_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#img1_header {
+  width: 30vw;
+}
+
+#img2_header {
+  width: 17vw;
+}
+
+.menu {
+  width: 12rem;
+  /* height: calc(100vh - 4rem); */
+  padding-right: 2rem; 
+  transition: translate .3s; 
+ }
+
+ .menu_mobile nav {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  padding: 1rem;
+  position: absolute;
+  /* justify-content: center; */
+  top: 5;
+  background: var(--Verde-cabecalho);
+  height: calc(100vh - 10vh);
+  width: 100vw;
+  align-items: center;
+  font-family: 'Passion One', cursive;
+  gap: 20vh;
+  padding-top: 17vh;
+  text-align: center;
+}   
+
+.menu_mobile nav ul {
+  list-style: none;
+}
+
+.menu_mobile nav a {
+  color: var(--Fonte-Cabecalho-Cel);
+  font-size: 10vw;
+}
+
+.menu_mobile li a {
+  text-decoration: none;
+  color: var(--Fonte-Cabecalho-Cel);
+  font-size: 11vw;
+}
+
+.menu.close {
+  translate: -500%;
+}
+
+.menu_desktop {
+  display: none;
+}
+
+@media(min-width: 900px) {
+  .menu_mobile {
+      display: none;
+  }
+
+  .menu_desktop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .menun {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9vw;
+    padding-left: 1rem;
+  }
+  
+  header {
+    justify-content: space-between;
+    background: var(--Verde-cabecalho);
+    height: 3.75rem;
+    font-family: 'Passion One', cursive;
+    width: 100vw;
+  }
+  
+  .imagens_logo {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+  }
+  
+  .logo {
+    background: url(../../img/Caminus.png);
+    width: 8.75rem;
+    height: 2.875rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  #navegacao nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8vw;
+    font-size: 1.125rem;
+  }
+  
+  #navegacao li a {
+    color: var(--Verde-letra-cabecalho);
+    text-decoration: none;
+  }
+}

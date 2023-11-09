@@ -1,0 +1,45 @@
+@import url(./Tudo.css);
+
+main {
+    color: white;
+    text-decoration: underline;
+}
+
+.separar_img {
+    display: flex;
+    flex-direction: row;
+    background: var(--Fundo-um);
+    font-family: 'Passion One', cursive;
+}
+
+.separar_img_ {
+    display: flex;
+    flex-direction: row;
+    background: var(--Fundo-dois);
+    font-family: 'Passion One', cursive;
+}
+
+.blocoum {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocodois {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgs img {
+    height: 28vw;
+    margin: 1.125rem 0rem;
+}
+
+.blocoum a {
+    color: white;
+    font-weight: bold;
+    font-size: 5vw;
+    text-decoration: underline;
+}
