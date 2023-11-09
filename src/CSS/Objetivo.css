@@ -3,6 +3,7 @@
 main {
     background: var(--Fundo-um);
     color: white;
+    height: 100vh;
 }
 
 .textoobj {
