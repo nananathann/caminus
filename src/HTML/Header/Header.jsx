@@ -62,11 +62,12 @@ function Header() {
                     <div id="navegacao">
                         <nav>
                             <ul>
-                                <li><a href={'/'}>Tela Inicial</a></li>
-                                <li><a href={'/ideia'}>Ideia</a></li>
-                                <li><a href={'/objetivo'}>Objetivo</a></li>
-                                <li><a href={'/explicacao'}>Explicação</a></li>
-                                <li><a href={'/equipamentos'}>Equipamentos</a></li>
+                            <Link to={'/'}>Tela Inicial </Link>
+                            <Link to={'/ideia'}>Ideia</Link>
+                            <Link to={'/objetivo'}>Objetivo</Link>
+                            <Link to={'/explicacao'}>Explicação</Link>
+                            <Link to={'/equipamentos'}>Equipamentos</Link>
+                            <Link to={'/contato'}>Contato</Link>
                             </ul>
                         </nav>
                     </div>
