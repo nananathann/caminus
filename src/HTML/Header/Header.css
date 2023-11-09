@@ -46,7 +46,7 @@
   /* justify-content: center; */
   top: 5;
   background: var(--Verde-cabecalho);
-  height: calc(100vh - 10vh);
+  height: 100vh;
   width: 100vw;
   align-items: center;
   font-family: 'Passion One', cursive;
@@ -57,17 +57,19 @@
 
 .menu_mobile nav ul {
   list-style: none;
+  width: 15rem;
 }
 
 .menu_mobile nav a {
   color: var(--Fonte-Cabecalho-Cel);
   font-size: 10vw;
+  padding:1rem;
 }
 
 .menu_mobile a {
   text-decoration: none;
   color: var(--Fonte-Cabecalho-Cel);
-  font-size: 11vw;
+  font-size: 1vw;
 }
 
 .menu.close {
