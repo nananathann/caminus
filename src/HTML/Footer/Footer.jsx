@@ -9,9 +9,7 @@ function Footer() {
     return(
         <footer>
           <div className={styles.texto_img}>
-            <h2>PDF DO PROJETO</h2>
             
-            <img src={Empresa} alt=""/>
           </div>
         </footer>
     )
